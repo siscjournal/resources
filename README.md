@@ -1,4 +1,4 @@
-info
-====
+resources
+=========
 
-Resources for SISC editors
+Resources for SISC editors.
