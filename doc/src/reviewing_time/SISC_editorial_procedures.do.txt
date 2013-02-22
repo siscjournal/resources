@@ -1,5 +1,5 @@
-TITLE: Speeing Up The Review Process: SISC Editorial Policies and Procedures
-DATE: today
+#TITLE: Speeding Up The Review Process: SISC Editorial Policies and Procedures
+#DATE: today
 
 This document contains an update on editorial policies from SIAM
 for reducing the reviewing time of papers. The various types of
