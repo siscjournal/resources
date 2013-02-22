@@ -1,64 +1,35 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<!--
-Automatically generated HTML file from Doconce source
-(http://code.google.com/p/doconce/)
--->
-
+<!doctype html>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="generator" content="Doconce: http://code.google.com/p/doconce/" />
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Speeding Up The Review Process: SISC Editorial Policies and Procedures</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Resources for SISC Editors</h1>
+	<img src="https://raw.github.com/siscjournal/resources/master/doc/src/fig/SISC_frontpage.jpg" width=220>
+
+      </header>
+
+      <!-- Here goes the main page --->
+      <section>
 
 
-<style type="text/css">
-    /* Color definitions:  http://www.december.com/html/spec/color0.html
-       CSS examples:       http://www.w3schools.com/css/css_examples.asp */
+<!-- ------------------- main content ---------------------- -->
 
-    body {
-      margin-top: 1.0em;
-      background-color: #ffffff;
-      font-family: Helvetica, Arial, FreeSans, san-serif;
-      color: #000000;
-    }
-    h1 { font-size: 1.8em; color: #1e36ce; }
-    h2 { font-size: 1.5em; color: #1e36ce; }
-    h3 { color: #1e36ce; }
-    a { color: #1e36ce; text-decoration:none; }
-    tt { font-family: "Courier New", Courier; }
-    pre { background: #ededed; color: #000; padding: 15px;}
-    p { text-indent: 0px; }
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    p.caption { width: 80%; font-style: normal; text-align: left; }
-    hr.figure { border: 0; width: 80%; border-bottom: 1px solid #aaa}
 
-    .notice, .summary, .warning, .hint, .question {
-    border: 1px solid; margin: 10px 0px; padding:15px 10px 15px 50px;
-    background-repeat: no-repeat; background-position: 10px center;
-    }
-    .notice   { color: #00529B; background-color: #BDE5F8;
-                background-image: url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Message.png'); }
-    .summary  { color: #4F8A10; background-color: #DFF2BF;
-                background-image:url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Valid_Green.png'); }
-    .warning  { color: #9F6000; background-color: #FEEFB3;
-                background-image: url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Attention.png'); }
-    .hint     { color: #00529B; background-color: #BDE5F8;
-                background-image: url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Info.png'); }
-    .question { color: #4F8A10; background-color: #DFF2BF;
-                background-image:url('https://doconce.googlecode.com/hg/bundled/html_images/Knob_Forward.png'); }
+<h1>Speeding Up The Review Process: SISC Editorial Policies and Procedures</h1>
 
-</style>
+<!-- DATE: today -->
 
-</head>
-<body>
-
-<!-- ------------------- main content ------------------------>
-
-<title>Speeing Up The Review Process: SISC Editorial Policies and Procedures</title>
-
-<center><h1>Speeing Up The Review Process: SISC Editorial Policies and Procedures</h1></center>  <! -- document title -->
-
-<p>
-<center><h4>Feb 11, 2013</h4></center> <!-- date -->
 <p>
 This document contains an update on editorial policies from SIAM
 for reducing the reviewing time of papers. The various types of
@@ -70,12 +41,12 @@ thereafter described.
 
 <h3>SIAM Polices (2012)  <a name="___sec0"></a></h3>
 <p>
-In 2012, SIAM attempted to implement many of the suggestions in
-a report by Nick Trefethen on how to shorten the average time from submission to
-acceptance of papers (an update to the original report appeared as
-a <a href="../../src/reviewing_time/Nick_Trefethen_SIAMNews_april12.pdf">SIAM News article</a>).
-The new suggested SIAM policies, also adopted
-by SISC, are summarized below.
+In 2012, SIAM attempted to implement many of the suggestions in a
+report by Nick Trefethen on how to shorten the average time from
+submission to acceptance of papers (an update to the original report
+appeared as a <a href="../../src/reviewing_time/Nick_Trefethen_SIAMNews_april12.pdf">SIAM News article</a>).  The
+new suggested SIAM policies, also adopted by SISC, are summarized
+below.
 
 <p>
 
@@ -116,7 +87,7 @@ by SISC, are summarized below.
    than about 8 months.</li>
 </ol>
 
-<h3>Summary of SISC's Reminder Emails  <a name="___sec1"></a></h3>
+<h3>Summary of SISC's Reminder Emails <a name="reminders"></a></h3>
 <p>
 Regarding item 6 above, SISC has been proactive about implementing
 various types of reminders to reduce delays:
@@ -276,29 +247,39 @@ To calculate the due date for an extended review period of 90 days,
 starting on July 15, 2012, you can write in MATLAB:
 
 <p>
-<!-- begin verbatim block  mcod-->
-<pre>
-datestr(datenum('15-July-2012')+90)
-</pre>
-<! -- end verbatim block -->
 
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%">datestr(datenum(<span style="color: #BA2121">&#39;15-July-2012&#39;</span>)<span style="color: #666666">+</span>90)
+</pre></div>
 <p>
+
 The corresponding Python statements are:
 
 <p>
-<!-- begin verbatim block  pycod-->
-<pre>
-import datetime as d
-print d.date(2012, 07, 15) + d.timedelta(90)
-</pre>
-<! -- end verbatim block -->
 
+
+<!-- code typeset with pygments style "default" -->
+<div class="highlight" style="background: #f8f8f8"><pre style="line-height: 125%"><span style="color: #008000; font-weight: bold">import</span> <span style="color: #0000FF; font-weight: bold">datetime</span> <span style="color: #008000; font-weight: bold">as</span> <span style="color: #0000FF; font-weight: bold">d</span>
+<span style="color: #008000; font-weight: bold">print</span> d<span style="color: #666666">.</span>date(<span style="color: #666666">2012</span>, <span style="color: #666666">07</span>, <span style="color: #666666">15</span>) <span style="color: #666666">+</span> d<span style="color: #666666">.</span>timedelta(<span style="color: #666666">90</span>)
+</pre></div>
 <p>
+
 Those who prefer C++ and a page of code can take a look at
 <a href="http://stackoverflow.com/questions/2344330/algorithm-to-add-or-subtract-days-from-a-date"><tt>http://stackoverflow.com/questions/2344330/algorithm-to-add-or-subtract-days-from-a-date</tt></a>.
+<!-- ------------------- end of main content --------------- -->
 
-<!-- ------------------- end of main content ----------------->
-</body>
+
+      </section>
+
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/siscjournal">siscjournal</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+
+  </body>
 </html>
-
 
