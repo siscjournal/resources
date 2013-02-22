@@ -9,12 +9,13 @@ thereafter described.
 
 ===== SIAM Polices (2012) =====
 
-In 2012, SIAM attempted to implement many of the suggestions in
-a report by Nick Trefethen on how to shorten the average time from submission to
-acceptance of papers (an update to the original report appeared as
-a "SIAM News article": "https://.....").
-The new suggested SIAM policies, also adopted
-by SISC, are summarized below.
+In 2012, SIAM attempted to implement many of the suggestions in a
+report by Nick Trefethen on how to shorten the average time from
+submission to acceptance of papers (an update to the original report
+appeared as a "SIAM News article":
+"../../src/reviewing_time/Nick_Trefethen_SIAMNews_april12.pdf").  The
+new suggested SIAM policies, also adopted by SISC, are summarized
+below.
 
  o Editors are encouraged to turn around manuscripts promptly.  In
    particular, they should assign referees as quickly as possible, and
@@ -59,6 +60,7 @@ by SISC, are summarized below.
 
 
 ===== Summary of SISC's Reminder Emails =====
+label{reminders}
 
 Regarding item 6 above, SISC has been proactive about implementing
 various types of reminders to reduce delays:
