@@ -9,5 +9,6 @@ The source of the documents are in `doc/src` while published
 and its subdirectories.
 
 The root web page is `doc/web/index.html`, containing links
-to external sites and to documents in this repo.
+to external sites and to documents in this repo. The full
+URL to the root page is <http://siscjournal.github.com/resources/doc/web/index.html> and a short version is <http://goo.gl/qpJax>.
 
