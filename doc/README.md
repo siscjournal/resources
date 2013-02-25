@@ -1,0 +1,7 @@
+Contents of this directory:
+
+ * `src`: source of all web documents.
+
+ * `web`: root of published web documents. Invdividual documents are
+   in `web/pub`.
+

@@ -1,7 +1,13 @@
 #!/bin/sh
+# Compile doconce format to HTML and publish under web/pub.
+
+name=SISC_editorial_procedures
+
+# Local copies of what is needed to display the HTML template correctly
 cp -r ../template/javascripts ../template/stylesheets .
 
-doconce format html SISC_editorial_procedures.do.txt --html-template=../template/siscjournal_template.html
+# Compile doconce document and embed in template
+doconce format html $name --html-template=../template/siscjournal_template.html
 
 # Publish
-cp -r SISC_editorial_procedures.html stylesheets javascripts ../../web/pub/
+cp -r $name.html stylesheets javascripts ../../web/pub/
